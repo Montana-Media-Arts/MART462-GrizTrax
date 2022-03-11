@@ -1,0 +1,216 @@
+/*Cabin Fonts*/
+@font-face {
+    font-family: 'Cabin-Bold';
+    src: url('../fonts/Cabin/Cabin-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-BoldItalic';
+    src: url('../fonts/Cabin/Cabin-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-Italic';
+    src: url('../fonts/Cabin/Cabin-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url('../fonts/Cabin/Cabin-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-MediumItalic';
+    src: url('../fonts/Cabin/Cabin-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-Regular';
+    src: url('../fonts/Cabin/Cabin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-SemiBold';
+    src: url('../fonts/Cabin/Cabin-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin-SemiBoldItalic';
+    src: url('../fonts/Cabin/Cabin-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Cabin Condensed Fonts*/
+@font-face {
+    font-family: 'Cabin_Condensed-Bold';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-BoldItalic';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-Italic';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-Medium';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-MediumItalic';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-Regular';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-SemiBold';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_Condensed-SemiBoldItalic';
+    src: url('../fonts/Cabin_Condensed/Cabin_Condensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Cabin SemiCondensed Fonts*/
+@font-face {
+    font-family: 'Cabin_SemiCondensed-Bold';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-BoldItalic';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-Italic';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-Medium';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-MediumItalic';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-Regular';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-SemiBold';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin_SemiCondensed-SemiBoldItalic';
+    src: url('../fonts/Cabin_SemiCondensed/Cabin_SemiCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Arial';
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-weight: regular;
+}
+
+h1 {
+    font-family: 'Cabin-Bold';
+    font-size: 24px;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'Cabin-Regular';
+    font-size: 22px;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Cabin-Regular';
+    font-size: 20px;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Cabin-Regular';
+    font-size: 18px;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
