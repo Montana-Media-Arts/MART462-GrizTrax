@@ -183,6 +183,8 @@ h1 {
     margin: 0px;
     overflow: visible;
     padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {

@@ -50,7 +50,6 @@ body {
     align-items: center;
     /* Padding to avoid the "unsafe" areas behind notches in the screen */
     padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
-    text-transform: uppercase;
     width: 98%;
 }
 
@@ -92,6 +91,7 @@ body {
     align-items: center;
     padding: 2%;
     margin: 1%;
+    text-align: center;
 }
 
 * {
@@ -106,6 +106,20 @@ body {
 .column {
     flex: 50%;
     text-align: center;
+}
+
+.button {
+    color: white;
+    font-family: 'Cabin-Bold';
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    overflow: visible;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 3px solid white;
+
 }
 
 
