@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Griz Trax Mobile Application">
+    <meta name="author" content="MART-462">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griz Trax</title>
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
+    <script type="text/javascript" src="./libraries/jquery.js"></script>
+    <script src="cordova.js "></script>
+    <script src="js/index.js "></script>
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        //This jquery code isn't working.  The 'Submit Answer' button is supposed to change
+        //color when the Answer A button is clicked.
+        console.log("test - is showing up in console");
+        $('#myButton').on('click', function() {
+            $('#submitButton').css('background', 'red');
+        });
+    </script>
+
+    <style>
+        /*CSS code for styling elements in the quiz div */
+        button{
+            background-color: tomato;
+        }
+        .answerOptions {
+            display: flex;
+            background-color: DodgerBlue;
+            flex-wrap: wrap;
+            
+        }
+        
+        .answerOptions div {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 30px;
+            flex-basis: 50%;
+            line-height: 90px;
+            width: 90px;
+        }
+        #submitButton {
+            background-color: grey; /* Green */
+            border-radius: 20px;
+            color: white;
+            padding: 13px 50px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        </style>
+
+
+<body>
+    <div class="mobile-container">
+        <div class="container">
+            <h1>Music Building</h1>
+        </div>
+        <div class="container">
+            <a href="fitness-art.html" class="button">Fitness and Recreation Center</a>
+        </div>
+        <div class="container">
+            <a href="index.html" class="button">Home</a> <a href="college.html" class="button">Choose a Different
+                College</a></div>
+        <div class="container"><a href="thanks.html" class="button">End Tour</a></div>
+        
+        <!-- Code for the quiz div -->
+        <div class="container" style="background-color: black;">
+            <h1>The quiz question goes here.  The quiz question goes here.</h1><br>
+            
+            <div class="answerOptions">
+              <div style="background-color: chartreuse; color:black;">
+                    <button id="myButton" type="button">Click Me!</button>
+              </div>
+              <div style="background-color: rgb(90, 181, 197);">Answer B</div>
+              <div style="background-color: rgb(230, 135, 10);">Answer C</div>
+              <div style="background-color: rgb(243, 250, 215); color: black;">Answer D</div>
+            </div>
+            <br>
+            <a href="index.html" id="submitButton">Submit Answer</a> 
+        </div>
+    </div>
+</body>
+
+</html>
