@@ -31,17 +31,6 @@
     <script type="text/javascript" src="./libraries/jquery.js"></script>
     <script src="cordova.js "></script>
     <script src="js/index.js "></script>
-    <script>
-        const myTimeout = setTimeout(goToHomePage, 5000);
-        
-        function goToHomePage() {
-          window.location = "home.html";
-        }
-        
-        function myStopFunction() {
-          clearTimeout(myTimeout);
-        }
-        </script>
 
 
 <body>
@@ -49,8 +38,11 @@
     <!-- Everything in your body should go under here-->
     <div class="mobile-container">
         <div class="container">
-            <img src="./assets/css/images/bear-tracks.gif" alt="Griz Trax Gif" style="width:100%";>
-        </div>
+            <img src="./assets/css/images/logo.png" alt="Griz Trax Logo" style="width:100%; opacity:0.7" ;>
+        
+            <a href="start.html" class="button">Start</a>
+            <a href="options.html" class="button">Options</a>
+            </div>
     </div>
 </body>
 

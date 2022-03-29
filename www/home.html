@@ -32,16 +32,16 @@
     <script src="cordova.js "></script>
     <script src="js/index.js "></script>
     <script>
-        const myTimeout = setTimeout(goToHomePage, 5000);
-        
-        function goToHomePage() {
-          window.location = "home.html";
+        const myTimeout = setTimeout(goToMenu, 1000);
+
+        function goToMenu() {
+            window.location = "menu.html";
         }
-        
+
         function myStopFunction() {
-          clearTimeout(myTimeout);
+            clearTimeout(myTimeout);
         }
-        </script>
+    </script>
 
 
 <body>
@@ -49,9 +49,10 @@
     <!-- Everything in your body should go under here-->
     <div class="mobile-container">
         <div class="container">
-            <img src="./assets/css/images/bear-tracks.gif" alt="Griz Trax Gif" style="width:100%";>
+            <img src="./assets/css/images/logo.png" alt="Griz Trax Logo" style="width:100%" ;>
         </div>
     </div>
+
 </body>
 
 </html>

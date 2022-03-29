@@ -40,14 +40,18 @@
     background: white url("./images/bear-tracks.gif") no-repeat center;
     z-index: 999;
 }
+
 /* Portrait layout (default) */
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 2px;
     border: 0;
-    overflow: hidden; /*  Disable scrollbars */
-    display: block;  /* No floating content on sides */
+    overflow: hidden;
+    /*  Disable scrollbars */
+    display: block;
+    /* No floating content on sides */
 }
 
 body {
@@ -61,8 +65,7 @@ body {
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size: 12px;
     height: 100vh;
-    padding: 5%;
-    margin-right: 5%;
+    padding: 2%;
     align-items: center;
     /* Padding to avoid the "unsafe" areas behind notches in the screen */
     padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
@@ -80,9 +83,9 @@ body {
     width: 100%;
     /* text area width */
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin: 3%;
+    margin: 2%;
     /* offset vertical: half of image height and text area height */
     /* offset horizontal: half of text area width */
 }
@@ -93,9 +96,9 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position: center;
-        padding: 3%;
+        padding: 2%;
         /* padding-top + padding-bottom + text area = image height */
-        margin: 3%;
+        margin: 2%;
         /* offset vertical: half of image height */
         /* offset horizontal: half of image width and text area width */
     }
@@ -135,8 +138,4 @@ body {
     text-transform: uppercase;
     display: inline-block;
     border: 3px solid white;
-
 }
-
-
-
