@@ -61,7 +61,7 @@ body {
     /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;
     /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color: rgb(73, 71, 71);
+    background-color: #555;
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size: 12px;
     height: 100vh;
@@ -69,12 +69,10 @@ body {
     align-items: center;
     /* Padding to avoid the "unsafe" areas behind notches in the screen */
     padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
-    width: 98%;
+    width: 97%;
 }
 
-
 /* Portrait layout (default) */
-
 .app {
     position: absolute;
     /* position in the center of the screen */
@@ -105,8 +103,7 @@ body {
 }
 
 .container {
-    border-style: solid;
-    background-color: #5d1414;
+    background-color: #555;
     align-items: center;
     padding: 2%;
     margin: 1%;
@@ -117,18 +114,50 @@ body {
     box-sizing: border-box
 }
 
-.row {
-    display: flex;
-    padding: 3em;
+.collapsible {
+    background-color: #5d1414;
+    cursor: pointer;
+    padding: 5%;
+    margin: 1%;
+    width: 100%;
+    outline: none;
+    font-family: 'Cabin-Bold';
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 3px solid white;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #5d1414;
+}
+
+.content {
+    overflow: hidden;
+    display: inline-block;
+    background-color: #5d1414;
+    font-family: 'Cabin-Bold';
+    font-size: 15px;
+    margin: 4px;
+    padding: 4px;
+    width: 100%;
+    text-transform: uppercase;
+    border: 3px solid white;
 }
 
 .column {
     flex: 50%;
     text-align: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
 }
 
 .button {
     color: white;
+    background-color: #5d1414;
     font-family: 'Cabin-Bold';
     font-size: 20px;
     text-align: center;
@@ -138,4 +167,14 @@ body {
     text-transform: uppercase;
     display: inline-block;
     border: 3px solid white;
+}
+
+a:visited {
+    color: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: none;
+    text-decoration: none;
 }

@@ -9,8 +9,7 @@
     <link rel="icon" href="./assets/css/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
-    <script type="text/javascript" src="./libraries/jquery.js"></script>
-    <script src="cordova.js "></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
     <script src="js/index.js "></script>
 
 
@@ -19,21 +18,45 @@
     <!-- Everything in your body should go under here-->
     <div class="mobile-container">
         <div class="container">
-            <h1>Colleges</h1>
+            <button type="button" class="collapsible">Colleges</button>
+
+            <div class="content">
+                <div class="row">
+                    <div class="column">
+                        <a href="art.html" class="button">College of Arts and Media</a>
+                        <a href="health.html" class="button">College of Health</a>
+                        <a href="forestry.html" class="button">College of Forestry and Conservation</a>
+                    </div>
+                    <div class="column">
+                        <a href="science.html" class="button">College of Humanities and Sciences</a>
+                        <a href="education.html" class="button">College of Education</a>
+                        <a href="business.html" class="button">College of Business</a>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html" class="button">Home</a><a href="thanks.html" class="button">End Tour</a>
+
+            <a href="college.html" class="button">Choose a Different College</a>
         </div>
-        <div class="container">
-            <a href="art.html" class="button">College of Arts and Media</a>
-            <a href="health.html" class="button">College of Health</a>
-            <a href="forestry.html" class="button">College of Forestry and Conservation</a>
-            <a href="science.html" class="button">College of Humanities and Sciences</a>
-            <a href="education.html" class="button">College of Education</a>
-            <a href="business.html" class="button">College of Business</a>
-        </div>
-        <div class="container">
-            <a href="index.html" class="button">Home</a> <a href="dorms.html" class="button">Visit the Dormitories!</a>
-        </div>
-        <div class="container"><a href="thanks.html" class="button">End Tour</a></div>
     </div>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

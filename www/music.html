@@ -1,34 +1,71 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Griz Trax Mobile Application">
-    <meta name="author" content="MART-462">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Griz Trax</title>
-    <link rel="icon" href="./assets/css/images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
-    <script type="text/javascript" src="./libraries/jquery.js"></script>
-    <script src="cordova.js "></script>
-    <script src="js/index.js "></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="Griz Trax Mobile Application">
+  <meta name="author" content="MART-462">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Griz Trax</title>
+  <link rel="icon" href="./assets/css/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script src="js/index.js "></script>
 
 
 <body>
-    <div id="loader"></div>
-    <!-- Everything in your body should go under here-->
-    <div class="mobile-container">
-        <div class="container">
-            <h1>Music Building</h1>
+  <div id="loader"></div>
+  <!-- Everything in your body should go under here-->
+
+
+  <div class="mobile-container">
+    <div class="container">
+      <button type="button" class="collapsible">College of Arts and Media Tour</button>
+
+      <div class="content">
+        <div class="row">
+          <div class="column">
+            <a href="fine-arts.html" class="button">Fine Arts</a>
+              <a href="music.html" class="button">Music Building</a>
+          </div>
+          <div class="column">
+            <a href="anderson.html" class="button">Anderson Hall</a> <a href="mcgill.html" class="button">McGill
+              Hall</a> <a href="art-annex.html" class="button">Art Annex</a></p>
+          </div>
         </div>
-        <div class="container">
-            <a href="fitness-art.html" class="button">Fitness and Recreation Center</a>
-        </div>
-        <div class="container">
-            <a href="index.html" class="button">Home</a> <a href="college.html" class="button">Choose a Different
-                College</a></div>
-        <div class="container"><a href="thanks.html" class="button">End Tour</a></div>
+      </div>
     </div>
+    <div class="container">
+      <button type="button" class="collapsible">Other Options</button>
+
+      <div class="content">
+        <div class="row">
+          <div class="column">
+            <a href="index.html" class="button">Home</a><a href="thanks.html" class="button">End Tour</a></div>
+          <div class="column">
+            <a href="college.html" class="button">Choose a Different College</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+
 </body>
 
 </html>
