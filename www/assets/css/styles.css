@@ -178,3 +178,12 @@ a:link {
     color: none;
     text-decoration: none;
 }
+
+.video {
+        background-color: #5d1414;
+        align-items: center;
+        padding: 5%;
+        margin: 1%;
+        text-align: center;
+        border: 3px solid white;
+}
