@@ -187,3 +187,13 @@ a:link {
         text-align: center;
         border: 3px solid white;
 }
+
+.questions {
+    text-align: center;
+    font-size: large;
+    
+}
+
+input{
+     color:black;
+}
