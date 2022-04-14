@@ -20,23 +20,62 @@
         <div class="container">
             <h1>Fine Arts Building</h1>
         </div>
-        <div class = questions>
+        <div class=questions>
             Q: What are 4 programs that are offered at the School of Visual and Media Arts?
-        </br>
-        </br>
+            </br>
+            </br>
             <input type="text" id="answer" placeholder="Enter programs here" autofocus>
-        </br>
-        <a href="music.html" class="button">Submit</a>
+            </br>
+            <a href="music.html" class="button">Submit</a>
 
-        </div>
-        <div class="container">
-            <a href="music.html" class="button">Music Building</a>
-        </div>
-        <div class="container">
-            <a href="index.html" class="button">Home</a> <a href="college.html" class="button">Choose a Different
-                College</a></div>
-        <div class="container"><a href="thanks.html" class="button">End Tour</a></div>
-    </div>
+            <div class="mobile-container">
+                <div class="container">
+                    <button type="button" class="collapsible">College of Arts and Media Tour</button>
+
+                    <div class="content">
+                        <div class="row">
+                            <div class="column">
+                                <a href="fine-arts.html" class="button">Fine Arts</a>
+                                <a href="music.html" class="button">Music Building</a>
+                            </div>
+                            <div class="column">
+                                <a href="anderson.html" class="button">Anderson Hall</a> <a href="mcgill.html"
+                                    class="button">McGill
+                                    Hall</a> <a href="art-annex.html" class="button">Art Annex</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button type="button" class="collapsible">Other Options</button>
+
+                        <div class="content">
+                            <div class="row">
+                                <div class="column">
+                                    <a href="index.html" class="button">Home</a><a href="thanks.html" class="button">End
+                                        Tour</a></div>
+                                <div class="column">
+                                    <a href="college.html" class="button">Choose a Different College</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                            coll[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var content = this.nextElementSibling;
+                                if (content.style.display === "block") {
+                                    content.style.display = "none";
+                                } else {
+                                    content.style.display = "block";
+                                }
+                            });
+                        }
+                    </script>
 </body>
 
 </html>
