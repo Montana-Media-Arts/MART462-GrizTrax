@@ -34,29 +34,39 @@
                     </div>
                 </div>
             </div>
-            <a href="index.html" class="button">Home</a><a href="thanks.html" class="button">End Tour</a>
 
-            <a href="college.html" class="button">Choose a Different College</a>
-        </div>
-    </div>
-    </div>
+            <div class="container">
+                <button type="button" class="collapsible">Other Options</button>
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
+                <div class="content">
+                    <div class="row">
+                        <div class="column">
+                            <a href="index.html"> <img src="./assets/css/images/buttons/home.png" style="width:75%"
+                                    ;></a> <a href="thanks.html"> <img src="./assets/css/images/buttons/end.png"
+                                    style="width:75%" ;></a></div>
+                        <div class="column">
+                            <a href="dorms.html" class="button">Visit the Dormitories!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
                 }
-            });
-        }
-    </script>
+            </script>
 </body>
 
 </html>

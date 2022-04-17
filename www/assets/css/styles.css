@@ -106,7 +106,6 @@ body {
     background-color: #555;
     align-items: center;
     padding: 2%;
-    margin: 1%;
     text-align: center;
 }
 
@@ -118,7 +117,7 @@ body {
     background-color: #5d1414;
     cursor: pointer;
     padding: 5%;
-    margin: 1%;
+    margin: 2%;
     width: 100%;
     outline: none;
     font-family: 'Cabin-Bold';
@@ -139,7 +138,7 @@ body {
     font-family: 'Cabin-Bold';
     font-size: 15px;
     margin: 4px;
-    padding: 4px;
+    padding: 2px;
     width: 100%;
     text-transform: uppercase;
     border: 3px solid white;
